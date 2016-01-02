@@ -15,6 +15,7 @@
     <modules>
         <module>getting-startted</module>
         <module>bean-validation</module>
+        <module>method-validation</module>
     </modules>
 
     <properties>
