@@ -11,6 +11,48 @@
 
     <groupId>com.hotfixs.frameworks.hibernate-validator</groupId>
     <artifactId>hibernate-validator</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>getting-startted</module>
+    </modules>
 
+    <properties>
+        <hibernate.validator.version>5.2.2.Final</hibernate.validator.version>
+        <javax.el.api.version>2.2.4</javax.el.api.version>
+        <glassfish.javax.el.version>2.2.4</glassfish.javax.el.version>
+        <hibernate.validator.cdi.version>5.2.2.Final</hibernate.validator.cdi.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- JSR349: hibernate validator -->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate.validator.version}</version>
+            </dependency>
+
+            <!-- JSR341: Unified EL required by hibernate-validator in JavaSE -->
+            <dependency>
+                <groupId>javax.el</groupId>
+                <artifactId>javax.el-api</artifactId>
+                <version>${javax.el.api.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.glassfish.web</groupId>
+                <artifactId>javax.el</artifactId>
+                <version>${glassfish.javax.el.version}</version>
+            </dependency>
+
+            <!-- JSR346: CDI -->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator-cdi</artifactId>
+                <version>${hibernate.validator.cdi.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>
