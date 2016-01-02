@@ -1,4 +1,4 @@
-package com.hotfixs.frameworks.HibernateValidator.GettingStartted;
+package com.hotfixs.frameworks.hibernatevalidator.gettingstartted;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package com.hotfixs.frameworks.HibernateValidator.GettingStartted;
+package com.hotfixs.frameworks.hibernatevalidator.gettingstartted;
 
 import static org.junit.Assert.assertEquals;
 
