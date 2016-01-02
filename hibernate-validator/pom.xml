@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>getting-startted</module>
+        <module>bean-validation</module>
     </modules>
 
     <properties>
