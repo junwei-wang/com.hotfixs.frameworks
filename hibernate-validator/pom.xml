@@ -16,6 +16,7 @@
         <module>getting-startted</module>
         <module>bean-validation</module>
         <module>method-validation</module>
+        <module>message-interpolation</module>
     </modules>
 
     <properties>
