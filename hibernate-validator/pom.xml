@@ -17,6 +17,7 @@
         <module>bean-validation</module>
         <module>method-validation</module>
         <module>message-interpolation</module>
+        <module>constraints-group</module>
     </modules>
 
     <properties>
