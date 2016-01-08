@@ -18,6 +18,7 @@
         <module>method-validation</module>
         <module>message-interpolation</module>
         <module>constraints-group</module>
+        <module>custom-constraints</module>
     </modules>
 
     <properties>
